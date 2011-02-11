@@ -1,0 +1,11 @@
+axure
+git
+spring3.x
+mybatis
+bonecp
+ant+ivy
+slf4j + logback 
+mariadb
+swt/jface (3.5+)
+jfreechart
+poi
