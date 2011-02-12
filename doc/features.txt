@@ -1,0 +1,16 @@
+csoon
+* task edit
+* rich text editor, rich text show
+* group by person, task 
+* filter/group by  person, date, status
+* adjust priority
+* burn down chart (include/exclude by filter)
+* assigner history (item with startdate,enddate,comment)
+* what we are doing 
+* who doing what view
+* multi person for one task
+* export to excel , update excel task list 
+* system alert
+* mobile notification
+* integrate sametime 
+* record status/log , non-task
