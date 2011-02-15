@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ivy-module version="2.0">
+	
+	<info organisation="com.acs" module="csoon-ivy" />
+	
+	<configurations>
+        <conf name="runtime" description="" />
+        <conf name="provided" description="" />
+	</configurations>
+	
+	<dependencies>
+		
+		<dependency org="com.jolbox" name="bonecp" rev="0.7.0" transitive="false" conf="runtime->*,!sources,!javadoc" />
+		<dependency org="com.google.guava" name="guava" rev="r08" conf="runtime->*,!sources,!javadoc,!optional" />
+		<dependency org="net.sf.ehcache" name="ehcache-core" rev="2.4.0" conf="runtime->*,!sources,!javadoc,!provided">
+			<exclude name="slf4j-api" />
+		</dependency>
+		
+		<dependency org="org.slf4j" name="jcl-over-slf4j" rev="1.6.1" conf="runtime->*,!sources,!javadoc" />
+		<dependency org="ch.qos.logback" name="logback-classic" rev="0.9.28" transitive="false" conf="runtime->*,!sources,!javadoc" />
+		<dependency org="ch.qos.logback" name="logback-core" rev="0.9.28" transitive="false" conf="runtime->*,!sources,!javadoc" />
+		
+		<dependency org="mysql" name="mysql-connector-java" rev="5.1.15" conf="runtime->*,!sources,!javadoc" />
+		
+		<dependency org="org.mybatis" name="mybatis" rev="3.0.4" conf="runtime->*,!sources,!javadoc,!optional" />
+		<dependency org="org.mybatis" name="mybatis-spring" rev="1.0.0" transitive="false" conf="runtime->*,!sources,!javadoc" />
+		<dependency org="org.mybatis" name="mybatis-ehcache" rev="1.0.0" transitive="false" conf="runtime->*,!sources,!javadoc" />
+		
+		<dependency org="org.aspectj" name="aspectjweaver" rev="1.6.10" conf="runtime->*,!sources,!javadoc" />
+		
+		<dependency org="org.springframework" name="spring-core" rev="3.0.5.RELEASE" conf="runtime->*,!sources,!javadoc,!optional" />
+		<dependency org="org.springframework" name="spring-aop" rev="3.0.5.RELEASE" conf="runtime->*,!sources,!javadoc,!optional" />
+		<dependency org="org.springframework" name="spring-jdbc" rev="3.0.5.RELEASE" conf="runtime->*,!sources,!javadoc,!optional,!optional,!provided" />
+		<dependency org="org.springframework" name="spring-context-support" rev="3.0.5.RELEASE" conf="runtime->*,!sources,!javadoc,!optional,!optional,!provided" />
+		
+		<exclude org="commons-logging" module="commons-logging" />
+		
+	</dependencies>
+
+</ivy-module>
