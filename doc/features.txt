@@ -14,3 +14,38 @@ csoon
 * mobile notification
 * integrate sametime 
 * record status/log , non-task
+* export to .exe starter
+
+
+--------- Task Editor
+* group by task, person
+* up and down tasks
+* tab for task to filter and search 
+* task,person history record
+* copy line to excel
+* 'enter key' to next row
+* 'tab key' to next column
+* 'shift space' select line
+* 'ctrl -' delete line
+* 'alt up/down' move line
+* 'ctrl atl up/down' copy line 
+* 'f2' edit text
+* 'dbl click' show edit panel
+* when turn view, auto locate the select task 
+* report to daily status 
+* multi column sort 
+
+----------- Search/Filter scenario
+* find all tasks by a backup person, by monitor person 
+* find all person for tasks
+* find all tasks for a person 
+* store search criteria 
+
+
+
+
+
+
+
+
+
